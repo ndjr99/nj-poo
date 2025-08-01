@@ -4,7 +4,7 @@ class Perro:
         self.raza = raza
 
     def ladrar(self):
-        print("El perro qe esta ladranfo es: ", self.nombre)
+        print("El perro que esta ladrando es: ", self.nombre)
     
 class Persona:
     def _init_(self, nombre, edad, sexo):
