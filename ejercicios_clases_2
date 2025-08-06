@@ -15,7 +15,7 @@ class Producto:
             self.cantidad_disponible -= cantidad_vendida
             print("Venta realizada con éxito")
             print("Total de la venta:", self.precio * cantidad_vendida)
-            print(f"Cantidad restante de, {self.nombre}: {self.cantidad_disponible}")
+            print(f"Cantidad restante de {self.nombre}: {self.cantidad_disponible}")
         else:
             print("No hay suficiente cantidad de", self.nombre)    
 
