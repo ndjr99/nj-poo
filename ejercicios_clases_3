@@ -46,6 +46,7 @@ while True:
             if cuentas.cuenta == cuenta:
                 print("La cuenta ya existe.")
                 print()
+                break
         else:
             print("Ingrese el nombre del titular de la cuenta")
             titular = input()                

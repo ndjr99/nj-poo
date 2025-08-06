@@ -56,6 +56,10 @@ while True:
             if producto.nombre.lower() == producto_vendido.lower():
                 print("Ingrese la cantidad a vender")
                 cantidad_vendida = int(input())
+                if cantidad_vendida <= 0:
+                    print("La cantidad a vender debe ser mayor que cero.")
+                    print()
+                    break
                 producto.vender(cantidad_vendida)
                 print()
                 break
