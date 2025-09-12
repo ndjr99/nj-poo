@@ -17,7 +17,7 @@ class Cuenta:
     def depositar(self, cantidad):
         self.saldo = self.saldo + cantidad
 
-#Crear una instancia (objrto) de la clase Persona
+#Crear una instancia (objeto) de la clase Persona
 persona1 = Persona("Juan", 35)
 print("El nombre de la persona es ", persona1.nombre)
 print(f"La edad de la persona es {persona1.edad}")
