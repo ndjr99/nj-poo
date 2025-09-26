@@ -43,8 +43,9 @@ class Casa:
         for espacio in self.__espacios:
             print(espacio.nombre)
 
-mi_casa = Casa("Calle 123")
 
+
+mi_casa = Casa("Calle 123")
 mi_casa.agregare("Cocina")
 mi_casa.agregare("Habitación")
 mi_casa.agregare("Baño")
